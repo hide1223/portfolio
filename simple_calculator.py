@@ -1,15 +1,19 @@
+# 加算処理（x と y を足して返す）
 def add(x,y):
     return x + y
 
 
+# 減算処理（x から y を引いて返す）
 def subtract(x,y):
     return x - y
 
 
+# 乗算処理（x と y を掛けて返す）
 def multiply(x,y):
     return x * y
 
 
+# 除算処理（0除算を防ぎつつ、小数点第3位まで丸めて返す）
 def divide(x,y):
     if y != 0:
         return (round(x / y, 3))
@@ -55,3 +59,4 @@ while True:
 
     else:
         print('計算できませんでした。')
+
